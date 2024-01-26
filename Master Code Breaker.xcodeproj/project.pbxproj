@@ -11,6 +11,19 @@
 		FB3350562A8EF86400782F6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350552A8EF86400782F6A /* ContentView.swift */; };
 		FB3350582A8EF86700782F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3350572A8EF86700782F6A /* Assets.xcassets */; };
 		FB33505B2A8EF86700782F6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB33505A2A8EF86700782F6A /* Preview Assets.xcassets */; };
+		FB3350622A8EF87E00782F6A /* MastermindGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350612A8EF87E00782F6A /* MastermindGame.swift */; };
+		FB3350642A8EF8D700782F6A /* MastermindRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350632A8EF8D700782F6A /* MastermindRow.swift */; };
+		FB3350662A8EF90400782F6A /* MastermindCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350652A8EF90400782F6A /* MastermindCell.swift */; };
+		FB3350682A8EFC4300782F6A /* MastermindGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350672A8EFC4300782F6A /* MastermindGrade.swift */; };
+		FB33506C2A8F066700782F6A /* MastermindGridUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33506B2A8F066700782F6A /* MastermindGridUI.swift */; };
+		FB33506E2A8F0C1900782F6A /* MastermindRowUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33506D2A8F0C1900782F6A /* MastermindRowUI.swift */; };
+		FB3350702A8F11A400782F6A /* MastermindCellUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33506F2A8F11A400782F6A /* MastermindCellUI.swift */; };
+		FB3350722A8F130400782F6A /* MastermindGradeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350712A8F130400782F6A /* MastermindGradeUI.swift */; };
+		FB3350742A8F14B400782F6A /* MastermindGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350732A8F14B400782F6A /* MastermindGameView.swift */; };
+		FB3350762A900CF700782F6A /* MastermindColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350752A900CF700782F6A /* MastermindColors.swift */; };
+		FB3350782A90157F00782F6A /* MastermindUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350772A90157F00782F6A /* MastermindUIConstants.swift */; };
+		FB33507A2A901CBE00782F6A /* MastermindColorSelectorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3350792A901CBE00782F6A /* MastermindColorSelectorUI.swift */; };
+		FB33507C2A907BC800782F6A /* VariableDifficultyMastermind.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33507B2A907BC800782F6A /* VariableDifficultyMastermind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		FB3350552A8EF86400782F6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB3350572A8EF86700782F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB33505A2A8EF86700782F6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB3350612A8EF87E00782F6A /* MastermindGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindGame.swift; sourceTree = "<group>"; };
+		FB3350632A8EF8D700782F6A /* MastermindRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindRow.swift; sourceTree = "<group>"; };
+		FB3350652A8EF90400782F6A /* MastermindCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindCell.swift; sourceTree = "<group>"; };
+		FB3350672A8EFC4300782F6A /* MastermindGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindGrade.swift; sourceTree = "<group>"; };
+		FB33506B2A8F066700782F6A /* MastermindGridUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindGridUI.swift; sourceTree = "<group>"; };
+		FB33506D2A8F0C1900782F6A /* MastermindRowUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindRowUI.swift; sourceTree = "<group>"; };
+		FB33506F2A8F11A400782F6A /* MastermindCellUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindCellUI.swift; sourceTree = "<group>"; };
+		FB3350712A8F130400782F6A /* MastermindGradeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindGradeUI.swift; sourceTree = "<group>"; };
+		FB3350732A8F14B400782F6A /* MastermindGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindGameView.swift; sourceTree = "<group>"; };
+		FB3350752A900CF700782F6A /* MastermindColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindColors.swift; sourceTree = "<group>"; };
+		FB3350772A90157F00782F6A /* MastermindUIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindUIConstants.swift; sourceTree = "<group>"; };
+		FB3350792A901CBE00782F6A /* MastermindColorSelectorUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindColorSelectorUI.swift; sourceTree = "<group>"; };
+		FB33507B2A907BC800782F6A /* VariableDifficultyMastermind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableDifficultyMastermind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +77,13 @@
 		FB3350522A8EF86400782F6A /* Master Code Breaker */ = {
 			isa = PBXGroup;
 			children = (
+				FB33507B2A907BC800782F6A /* VariableDifficultyMastermind.swift */,
 				FB3350532A8EF86400782F6A /* Master_Code_BreakerApp.swift */,
 				FB3350552A8EF86400782F6A /* ContentView.swift */,
 				FB3350572A8EF86700782F6A /* Assets.xcassets */,
 				FB3350592A8EF86700782F6A /* Preview Content */,
+				FB33506A2A8F064100782F6A /* MastermindUI */,
+				FB3350692A8F063500782F6A /* MastermindModel */,
 			);
 			path = "Master Code Breaker";
 			sourceTree = "<group>";
@@ -65,6 +94,32 @@
 				FB33505A2A8EF86700782F6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB3350692A8F063500782F6A /* MastermindModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB3350612A8EF87E00782F6A /* MastermindGame.swift */,
+				FB3350672A8EFC4300782F6A /* MastermindGrade.swift */,
+				FB3350632A8EF8D700782F6A /* MastermindRow.swift */,
+				FB3350652A8EF90400782F6A /* MastermindCell.swift */,
+			);
+			path = MastermindModel;
+			sourceTree = "<group>";
+		};
+		FB33506A2A8F064100782F6A /* MastermindUI */ = {
+			isa = PBXGroup;
+			children = (
+				FB33506B2A8F066700782F6A /* MastermindGridUI.swift */,
+				FB3350732A8F14B400782F6A /* MastermindGameView.swift */,
+				FB3350772A90157F00782F6A /* MastermindUIConstants.swift */,
+				FB33506D2A8F0C1900782F6A /* MastermindRowUI.swift */,
+				FB3350712A8F130400782F6A /* MastermindGradeUI.swift */,
+				FB33506F2A8F11A400782F6A /* MastermindCellUI.swift */,
+				FB3350752A900CF700782F6A /* MastermindColors.swift */,
+				FB3350792A901CBE00782F6A /* MastermindColorSelectorUI.swift */,
+			);
+			path = MastermindUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +192,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB33506C2A8F066700782F6A /* MastermindGridUI.swift in Sources */,
+				FB3350722A8F130400782F6A /* MastermindGradeUI.swift in Sources */,
+				FB3350782A90157F00782F6A /* MastermindUIConstants.swift in Sources */,
 				FB3350562A8EF86400782F6A /* ContentView.swift in Sources */,
+				FB33506E2A8F0C1900782F6A /* MastermindRowUI.swift in Sources */,
+				FB3350622A8EF87E00782F6A /* MastermindGame.swift in Sources */,
+				FB3350642A8EF8D700782F6A /* MastermindRow.swift in Sources */,
+				FB3350702A8F11A400782F6A /* MastermindCellUI.swift in Sources */,
 				FB3350542A8EF86400782F6A /* Master_Code_BreakerApp.swift in Sources */,
+				FB3350662A8EF90400782F6A /* MastermindCell.swift in Sources */,
+				FB3350742A8F14B400782F6A /* MastermindGameView.swift in Sources */,
+				FB33507A2A901CBE00782F6A /* MastermindColorSelectorUI.swift in Sources */,
+				FB3350682A8EFC4300782F6A /* MastermindGrade.swift in Sources */,
+				FB3350762A900CF700782F6A /* MastermindColors.swift in Sources */,
+				FB33507C2A907BC800782F6A /* VariableDifficultyMastermind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
